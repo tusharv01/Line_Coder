@@ -72,7 +72,7 @@ Encoding and Decoding
     ```
     python LineEncoder.py
     or using the LineEncoder.ipynb file run the program using juptyer notebook and dialog box opens on which you can operate.
-    To run an iPython Notebook (.ipynb file), you typically use a Jupyter Notebook server.```
+    To run an iPython Notebook (.ipynb file), you typically use a Jupyter Notebook server.    ON clicking on the graphs icon on the GUI it prints all the schmes graphs automatically.```
 
 
 ## Here's a step-by-step guide:
