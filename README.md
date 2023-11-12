@@ -71,9 +71,12 @@ Encoding and Decoding
 
     ```
     python LineEncoder.py
-    ```or using the LineEncoder.ipynb file run the program using juptyer notebook and dialog box opens on which you can operate.
-    To run an iPython Notebook (.ipynb file), you typically use a Jupyter Notebook server. Here's a step-by-step guide:
+    or using the LineEncoder.ipynb file run the program using juptyer notebook and dialog box opens on which you can operate.
+    To run an iPython Notebook (.ipynb file), you typically use a Jupyter Notebook server.```
 
+
+**Here's a step-by-step guide:
+**
 Using Jupyter Notebook (Local Installation):
 Install Jupyter Notebook:
 If you don't have Jupyter Notebook installed, you can install it using:
