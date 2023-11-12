@@ -75,20 +75,19 @@ Encoding and Decoding
     To run an iPython Notebook (.ipynb file), you typically use a Jupyter Notebook server.```
 
 
-**Here's a step-by-step guide:
-**
+## Here's a step-by-step guide:
 Using Jupyter Notebook (Local Installation):
 Install Jupyter Notebook:
 If you don't have Jupyter Notebook installed, you can install it using:
 
-pip install notebook
+```pip install notebook```
 Navigate to the Directory Containing the .ipynb File:
 Open a terminal, navigate to the directory where your .ipynb file is located.
 
 Start Jupyter Notebook Server:
 Run the following command in the terminal:
 
-jupyter notebook
+```jupyter notebook```
 This will open a new tab in your default web browser with the Jupyter Notebook dashboard.
 
 Access the Notebook:
@@ -97,21 +96,7 @@ In the Jupyter Notebook dashboard, you will see a list of files in the current d
 Run Cells:
 Once the notebook is open, you can run individual cells by selecting a cell and clicking the "Run" button or using the keyboard shortcut (usually Shift + Enter).
 
-Using Jupyter Notebook (Online Services):
-If you don't want to install Jupyter Notebook locally, you can use online services like Google Colab or Microsoft Azure Notebooks.
 
-Google Colab:
-Upload the .ipynb File to Google Drive.
-Open Google Colab (colab.research.google.com).
-Click on "Open Notebook" and select the .ipynb file from Google Drive.
-Run the cells as needed.
-Microsoft Azure Notebooks:
-Upload the .ipynb File to Azure Notebooks.
-Open the notebook in Azure Notebooks.
-Run the cells as needed.
-Make sure you have an active internet connection for online services.
-
-Choose the method that fits your preference and environment.
 
 5. Follow the on-screen prompts to input preferences for data generation, encoding, and scrambling.
 
