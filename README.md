@@ -1,108 +1,85 @@
-# Line_Coder
-"Line Encoder generates digital signals with encoding options like NRZ-L, NRZ-I, Manchester, and more. User-friendly interface for signal manipulation and visualization."
-
 # ITT305 Programming Assignment 1 - Line Coding Encoder and Scrambler
 
 ## Overview
 
 This project involves implementing a Line Coding Encoder and Scrambler with a digital data generator. The assignment includes the generation of a random data sequence, encoding using various line coding schemes (NRZ-L, NRZ-I, Manchester, Differential Manchester, AMI), and optional scrambling using B8ZS or HDB3. The code also identifies the longest palindromic sequence in the generated data.
 
-# Line Encoder GUI
+## Line Encoder GUI
 
 This is a Line Encoder GUI implemented using PySimpleGUI, Matplotlib, and NumPy. It provides an interface for encoding and decoding various line encoding schemes.
 
-## How to Run
+### Features:
 
-1. Install the required libraries:
-   ```bash
-   pip install PySimpleGUI matplotlib numpy
-  
+- Initialize random input data.
+- Enter custom input data.
+- Encode and decode data using various line encoding schemes.
+- Display the encoded and decoded data.
+- Plot graphs for input, encoded, and decoded data.
 
-Features:
-Initialize random input data.
-Enter custom input data.
-Encode and decode data using various line encoding schemes.
-Display the encoded and decoded data.
-Plot graphs for input, encoded, and decoded data.
-Line Encoding Schemes
-Polar NRZ-L
-Polar NRZ-I
-Manchester
-Polar RZ
-AMI
-Scrambling AMI B8ZS (Bipolar with 8 zero substitution)
-Differential Manchester
-Scrambling AMI HBD3 (High-Density Bipolar 3 Zeros)
-PCM (Pulse Code Modulation)
-Delta Modulation
+### Line Encoding Schemes:
+
+1. Polar NRZ-L
+2. Polar NRZ-I
+3. Manchester
+4. Polar RZ
+5. AMI
+6. Scrambling AMI B8ZS (Bipolar with 8 zero substitution)
+7. Differential Manchester
+8. Scrambling AMI HBD3 (High-Density Bipolar 3 Zeros)
+9. PCM (Pulse Code Modulation)
+10. Delta Modulation
+
+### How to Use:
+
+1. Launch the GUI.
+2. Initialize random input or enter custom input.
+3. Encode the data using a selected encoding scheme.
+4. Optionally, decode the encoded data.
+5. Visualize the input, encoded, and decoded data using the "Show Graph" button.
+
+### Examples:
+
+#### Initializing the Input:
+![Screenshot from 2023-11-13 05-31-08](https://github.com/tusharv01/Line_Coder/assets/93588934/ffa2e9bd-d089-4aee-ad16-da1e8eab8dcf)
 
 
-**How to Use**
-Launch the GUI.
-Initialize random input or enter custom input.
-Encode the data using a selected encoding scheme.
-Optionally, decode the encoded data.
-Visualize the input, encoded, and decoded data using the "Show Graph" button.
-Examples
-Initializing Random Input
-Random Input
+#### Entering scheme Input:
+![Screenshot from 2023-11-13 05-30-04](https://github.com/tusharv01/Line_Coder/assets/93588934/6ccc855f-f37f-4b98-887c-ac198e7ecc6f)
 
-Entering Custom Input
-Custom Input
 
-Encoding and Decoding
+#### Encoding and Decoding:
+![Screenshot from 2023-11-13 05-30-18](https://github.com/tusharv01/Line_Coder/assets/93588934/4aa74ebf-a226-4635-aad3-b853ca512400)
+
 
 ## How to Run the Code
 
 1. Ensure you have Python installed on your machine.
 2. Clone the repository:
 
-    ```
-   https://github.com/tusharv01/Line_Coder.git
+    ```bash
+    git clone https://github.com/tusharv01/Line_Coder.git
     ```
 
 3. Navigate to the project directory:
 
-    ```
+    ```bash
     cd Line_Coder
     ```
 
 4. Run the main program:
 
-    ```
+    ```bash
     python LineEncoder.py
-    or using the LineEncoder.ipynb file run the program using juptyer notebook and dialog box opens on which you can operate.
-    To run an iPython Notebook (.ipynb file), you typically use a Jupyter Notebook server.    ON clicking on the graphs icon on the GUI it prints all the schmes graphs automatically.```
+    ```
 
+    or using the LineEncoder.ipynb file:
 
-## Here's a step-by-step guide:
-Using Jupyter Notebook (Local Installation):
-Install Jupyter Notebook:
-If you don't have Jupyter Notebook installed, you can install it using:
+    ```bash
+    jupyter notebook
+    ```
 
-```pip install notebook```
-Navigate to the Directory Containing the .ipynb File:
-Open a terminal, navigate to the directory where your .ipynb file is located.
-
-Start Jupyter Notebook Server:
-Run the following command in the terminal:
-
-```jupyter notebook```
-This will open a new tab in your default web browser with the Jupyter Notebook dashboard.
-
-Access the Notebook:
-In the Jupyter Notebook dashboard, you will see a list of files in the current directory. Click on the .ipynb file you want to run.
-
-Run Cells:
-Once the notebook is open, you can run individual cells by selecting a cell and clicking the "Run" button or using the keyboard shortcut (usually Shift + Enter).
-
-
+    Navigate to the .ipynb file and run the cells.
 
 5. Follow the on-screen prompts to input preferences for data generation, encoding, and scrambling.
 
-   ------------THANK YOU--------------
-
-
-
-
-
+**THANK YOU!**
